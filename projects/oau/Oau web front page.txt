@@ -1,0 +1,316 @@
+<html>
+<head>
+<style type= "text/css" rel= "stylesheet">
+body
+{
+height: 900px;
+width: 1300px;
+}
+
+.outer{
+width: 1350px;
+Height: 45%;
+background-color: navy;
+margin: 0 auto;
+}
+
+.outer2
+{
+ width: 1300px
+ height: 55%;
+ background-color: white;
+ margin: 0 auto;
+}
+
+#one
+{
+background-color: black;
+font-family: arial;
+text-align: center;
+color: white;
+}
+
+.one
+{
+float: left;
+margin-left: 0;
+}
+
+.two
+{
+margin-left: 135px;
+font-family: lucida bright;
+color: white;
+}
+
+p input{
+margin-left: 300px;
+}
+
+span a
+{
+text-decoration: none;
+}
+
+a {
+margin-left: 10px;
+}
+
+a:hover
+{
+text-decoration: underline;
+}
+
+#middle
+{
+clear: left;
+height: 65%;
+background-color: white;
+margin-left: 60px;
+margin-right: 100px;
+width : 1200px;
+}
+
+#left
+{
+width: 500px;
+float: left;
+margin-left: 10px;
+height: 100px;
+margin-right: 10px;
+margin-top: 10px;
+}
+
+#right
+{
+width: 280px;
+float: right;
+height: 100px;
+//margin-left: 650px;
+margin-top: 10px;
+margin-right: 135px;
+}
+
+.inner2
+{
+width: 98%;
+height: 55%;
+background-color: white;
+margin-top: 20px;
+}
+.hay
+{
+margin-left: 70px;
+float: left;
+}
+
+.you
+{ 
+ margin-left: 340px;
+}
+
+.who
+{
+margin-left: 630px;
+margin-top: 2px;
+}
+
+#group
+{
+ float: left;
+}
+
+.hi{
+float: right;
+margin-top: 2px;
+}
+
+#group2
+{
+float: left;
+}
+
+#footer1
+{
+background-color: white;
+height: 180px;
+
+}
+
+#a{
+ margin-left: 70px;
+ float: left;
+}
+
+#b{
+ margin-left: 200px;
+}
+
+.grp1{
+
+float: left;
+}
+#c
+{
+ margin-left: 380px;
+}
+.grp2{
+float: left;
+}
+#d
+{
+ margin-left: 550px;
+}
+.grp3{
+float: left;
+}
+#e{
+margin-left: 730px;
+}
+.grp4{
+float: left;
+}
+#f{
+margin-left: 870px;
+
+}
+.grp5{
+float: left;
+}
+
+#g{
+float: right;
+}
+
+#footer2
+{
+height: 70px;
+backgroung-color: red;
+margin-left: 70px;
+}
+
+p a{
+text-decoration: none;
+color: navy;
+}
+
+button{
+color: navy;
+font-family: tahoma;
+}
+
+
+</style>
+</head>
+<body>
+
+ <div class="outer"><p id="one">Integrated Portal  |  Research Update|  Inaugurals  |  Bulletin |  Transcript  |  OAU scholars
+          |  Library  |  NetQue Community  |  staff Mail| student Mail  |  eportal</p>
+<div class="one"><img src="logo2.PNG"></div>
+<div class="two"><h3>OBAFEMI AWOLOWO UNIVERSITY</h3></div>
+<p>
+          <span>
+           <a href="OAU_site.html" style="color: white;">Home</a>  <a href="Admission.html" style="color: white;">Admission</a>  
+             <a href="Academics.html" style="color: white;">Academics</a>  <a href="Administration.html" style="color: white;">Administration</a>
+              <a href="Research.html" style="color: white;">Research</a>  <a href="Alumni.html" style="color: white;">Alumni</a>
+               <a href="Giving.html" style="color: white;">Giving</a>
+          </span>
+      <input type="SEARCH" placeholder="search" value="search" /><button>Search</button>
+         </p>
+  <div id="middle">
+   <div id="left"><img src="review.PNG" width="760px" height="245px"></div>
+   <div id="right"><img src="kedu.PNG"  width="400px" height="245px"></div>
+  </div>
+
+  </div>
+
+
+ <div class="outer2">
+   <div class="inner2">
+<div id="group2">
+<div id="group">
+ <div class="hay"><img src="senate.PNG" width= "250px" height="200px"><p style="color: grey;">The greatness and popularity of the<br><a href="m.html">Obafemi Awolowo 
+             University</a>(OAU)<br> is by no means an accident. Founded in<br> [..]
+             <a href="more.html">more</a> </p>
+              <p><img src="schorlar.PNG" width="250px" height="150px"></p>
+             </div>
+ <div class="you"><img src="motion_ground.PNG" width="250px" height="200px"><p style="color: grey;">The <a href="m.html">Obafemi
+              Awolowo University</a>is a<br>comprehensive public institution<br> 
+              established in 1962 as The University of<br>[..]
+               <a href="more.html">more</a></p>
+               <p><img src="V&M.PNG" width="250px" height="150px"></p>
+              </div>
+  </div>
+ <div class="who"><h3 style="color: grey;">News</h3><p><a href="e.html">ELECTION TO COUNCIL BY</p><p> CONGREGATION TO ALL MEMBERS
+           OF</p><p style="color: grey;">CONGREGATION</a>___February 1,2017</p>
+         <p style="color: grey;"><a href="in.html">296th inaugural Lecture</a>___January 28,<br>2017</p>
+        <p><a href="v.html"><p>VACANCY FOR THE POSITION OF</p><p style="color: grey;"> UNIVERSITY LIBRARIAN</a>— January 27,</p><p> 2017</p>
+         </p><p style="color: grey;"><a href="advertisement.html">INTERNAL AND EXTERNAL<br> ADVERTISEMENT
+               FOR THE<br> APPOINTMENT OF VICE-CHANCELLOR</a></p><p style="color: grey;"> — January 27, 2017</p>
+              <p><a href="h.html">Read more...</a></p></div>
+    </div>
+ <div class="hi"><h3 style="color: grey;">Events</h3><p><a href="o.html">OAU STAFF SCHOOL IS 50 YEARS OLD</a></p>
+           <p><a href="c.html">Watch OAU 42nd Convocation</p><p> Ceremonies</a></p>
+             <p><a href="d.html">OAU 42nd CONVOCATION<CEREMONIES</a></p>
+              <p><a href="e.html">Interractive Session with OAU Post</p><p>Graduate Students</a></p>
+             <p><a href="f.html"> View Events Calendar</a></p></div>
+   
+ </div>
+ <div id="footer1">
+<div class="grp5">
+<div class="grp4">
+<div class="grp3">
+<div class="grp2">
+<div class="grp1">
+ <div id="a"><p><a href="k.html">About</a><br>
+                <a href="l.html">Vision and Mission</a><br>
+                <a href="p.html">Staff Directory</a><br>
+                <a href="r.html">Careers</a><br>
+                <a href="s.html">Sitemap A-Z</a><br>
+                <a href="t.html">OAU Journals</a><br>
+                <a href="u.html">OAU Online Counselors</a></p></div>
+ <div id="b"><p>
+         <a href="v.html">Undergraduate Studies</a><br>
+         <a href="w.html">Postgraduate Studies</a><br>
+         <a href="x.html">International Studies</a><br>
+         <a href="y.html">Distance Learning</a><br></p>
+ </div>
+</div>
+ <div id="c"><p>
+          <a href="1.html">Departments</a><br>
+          <a href="2.html">Faculties</a><br>
+          <a href="3.html">Colleges</a><br>
+          <a href="4.html">Diplomas & Programs</a><br></p>
+</div>
+</div>
+ <div id="d"><p>
+           <a href="5.html">University Officials</a><br>
+           <a href="6.html">Student Affairs</a><br>
+           <a href="7.html">University Health Centre</a><br>
+           <a href="8.html">OAU Security Unit</a><br></p>
+</div>
+</div>
+ <div id="e"><p>
+          <a href="9.html">Centres & Institutes</a><br>
+          <a href="10.html">Research & Educational<br>Network</a><br></p>
+ </div>
+ </div>
+ <div id="f"><p><a href="11.html">INTECU</a><br>
+              <a href="12.html">Step B Projects</a><br></p>
+</div>
+</div>
+ <div id="g"><p>
+          <a href="13.html">OAU Meteorological Station</a><br>
+          <a href="14.html">OAU Blackboard</a><br>
+          <a href="15.html">OAU Library</a><br></p>
+</div>
+
+ </div>
+<div id="footer2"><p><hr><a href="16.html"><span>Search   Directory   Campus Map   
+       Contact Us   Sitemap   Copyright & Fair Use   Feedback</span></a><br>
+        <a href="17.html"> Unless otherwise noted, all content copyright Obafemi Awolowo University. All rights reserved.
+        Obafemi Awolowo University, Ile-Ife, P.M.B. 13</a></p></div>
+
+
+</body>
+</html>

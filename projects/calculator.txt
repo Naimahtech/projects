@@ -1,0 +1,222 @@
+<html>
+<head>
+<style type="text/css">
+  body{
+  margin:;
+  padding:;
+  background-color: gold;
+  }  
+  #outer{
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  border: 15px solid black;
+  border-radius: 15px;
+  margin-top: 50px;
+  }
+  
+  #ans{
+  background-color: black;
+  height: 70px;
+ }
+
+ #one{
+ height: 40px;
+ background-color: black;
+ }
+ 
+#two{
+ height: 45px;
+ background-color: black;
+ }
+ 
+#three{
+ height: 40px;
+ background-color: black;
+ }
+
+ #four{
+ height: 40px;
+ background-color: black;
+ }
+ #five{
+ height: 40px;
+ background-color: black;
+ }
+
+ #six{
+ height: 40px;
+ background-color: black;
+ }
+ .a{
+  width: 75%;
+  float: left;
+  }
+ .b{
+   width: 20%;
+   float: right;
+  }
+  .c{
+   width: 20%;
+   float: left;
+   border-radius:5px;
+  }
+  .d{
+   width: 20%;
+   float: left;
+  }
+  .e{
+   width: 20%;
+   float: left;
+  }
+  
+  .f{
+   width: 20%;
+   float: left;
+  }
+  
+  .g{
+   width: 20%;
+   float: left;
+   }
+
+  #iput{
+	width:300px;
+	height:70px;
+	}
+    
+</style>
+
+<script type="text/javascript">
+function hello() {
+window.alert("Hello, click ok to perform some calculations");
+}
+window.setTimeout("hello()",1000);
+
+
+function display(n)
+{
+calc.out1.value=calc.out1.value+n;
+}
+
+function square(){
+ var sqr= document.getElementById('iput').value;
+ var result= sqr*sqr ;
+ document.getElementById('iput').value = result;
+ }
+
+function squareRt(){
+var sqRT= document.getElementById('iput').value;
+var ans= Math.sqrt(sqRT);
+document.getElementById('iput').value = ans;
+}
+
+function invse(){
+var inve= document.getElementById('iput').value;
+var out= 1/inve;
+document.getElementById('iput').value = out;
+}
+
+function fact(){
+var me = 1;
+var n = document.getElementById('iput').value;
+
+for(i=1; i<=n; i++)
+{
+ me = me*i ; 
+}
+document.getElementById('iput').value = me;
+}
+
+function cube(){
+ var cub= document.getElementById('iput').value;
+ var esi= cub*cub*cub;
+ document.getElementById('iput').value = esi;
+ }
+
+function perct(){
+var number= document.getElementById('iput').value;
+var outt= number/100;
+document.getElementById('iput').value= outt;
+}
+
+function backspace(){
+
+var i;
+var you="";
+var d= document.getElementById('iput').value;
+var n=d.length;
+for(i=0; i<(n-1); i++)
+{
+you+=d[i]; 
+}
+document.getElementById('iput').value = you;
+}
+
+function plusormin(){
+var he= document.getElementById('iput').value;
+var him= -1*he;
+var her= 1*he;
+  if(he == him)
+{
+document.getElementById('iput').value= her;
+}
+ if(he == her)
+{
+document.getElementById('iput').value= him;
+}
+}
+
+</script>
+</head>
+<body onload="hello();">
+<div id="outer">
+<form name=calc>
+<div id="ans"><p><input type="text" readonly id="iput" name=out1 style="text-align:right; background-color: #9acd32" ></p></div>
+<div id="one">
+<div class="a"></div>
+<div class="b"><input type="reset" value="C" style="color: black; font-weight: bold; font-family: arial; font-variant: small-caps; border-radius: 5px; background-color: red;"/></div>
+</div>
+<div id="five">
+<div class="f"><input type="button" value="x&sup3" onclick="cube();" style="color: #ff1493; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px;border-radius: 5px;"/></div>
+<div class="f"><input type="button" value="1/x"  name=btnd onclick="invse();" style="color: #4169e1; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+<div class="f"><input type="button" value="x&sup2;" name=btne onclick="square();" style="color: #808000; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+<div class="f"><input type="button" value="&#8730;" name=btnf onclick="squareRt();" style="color: green; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+<div class="f"><input type="button" value="+"       name=btng onclick="display(btng.value)" style="color: black; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+</div>
+<div id="two">
+<div class="c"><input type="button" value="x!" onclick="fact();" style="color: purple; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+<div class="c"><input type="button" value="7" id=btn7  onclick="display(btn7.value)" style="color: blue; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+<div class="c"><input type="button" value="8" id=btn8 onclick="display(btn8.value)"  style="color: green; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+<div class="c"><input type="button" value="9" id=btn9 onclick="display(btn9.value)"  style="color: #ff1493; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px;border-radius: 5px;"/></div>
+<div class="c"><input type="button" value="/" id=btna onclick="display(btna.value)"  style="color: black; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+</div>
+<div id="three">
+<div class="d"><input type="button" value="%" onclick="perct();" style="color: #dc143c; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+<div class="d"><input type="button" value="4" id=btn4 onclick="display(btn4.value)"  style="color: maroon; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+<div class="d"><input type="button" value="5" id=btn5 onclick="display(btn5.value)"  style="color: purple; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+<div class="d"><input type="button" value="6" id=btn6 onclick="display(btn6.value)"  style="color: #ff4500; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+<div class="d"><input type="button" value="*" name=btnb onclick="display(btnb.value)"  style="color: black; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+</div>
+<div id="four">
+<div class="e"><input type="button" value="&plusmn;" onclick="plusormin();"  style="color: red; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div> 
+<div class="e"><input type="button" value="1" name=btn1 onclick="display(btn1.value)"  style="color: navy; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+<div class="e"><input type="button" value="2" name=btn2 onclick="display(btn2.value)"  style="color: #dc143c; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+<div class="e"><input type="button" value="3" name=btn3 onclick="display(btn3.value)"  style="color: #a52a2a; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+<div class="e"><input type="button" value="-" name=btnc onclick="display(btnc.value)"  style="color: black; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+</div>
+
+<div id="six">
+<div class="g"><input type="button" value="&larr;" onclick="backspace();"  style="color: green; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+<div class="g"><input type="button" value="." name=btnh onclick="display(btnh.value)"  style="color: red; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+<div class="g"><input type="button" value="0"  name=btn0 onclick="display(btn0.value)"  style="color: red; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px;"/></div>
+<div class="g"><input type="button" value="="  name=btnj onclick="out1.value=eval(out1.value)" style="color: white; font-weight: bold; font-family: arial; font-variant: small-caps; width: 35px; height: 30px; border-radius: 5px; background-color: #48d1cc;"/></div>
+</div>
+
+</form>
+</div>
+
+</body>
+</html>
